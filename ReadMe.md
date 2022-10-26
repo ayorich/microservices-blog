@@ -1,13 +1,13 @@
 ### build image and push
 
-docker build -t ayorich/query .
-docker push ayorich/query
+- docker build -t ayorich/query .
+- docker push ayorich/query
 
 ### create pods and services
 
-kubectl apply -f .
-kubectl get services
-kubectl get pods
+- kubectl apply -f .
+- kubectl get services
+- kubectl get pods
 
 ### restart deployments
 
@@ -16,5 +16,5 @@ kubectl get pods
 
 ### logs
 
-kubectl get pods
-kubectl logs comments-depl-79cbbdc56b-gqh6z
+- kubectl get pods
+- kubectl logs comments-depl-79cbbdc56b-gqh6z
