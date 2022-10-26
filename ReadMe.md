@@ -18,3 +18,7 @@
 
 - kubectl get pods
 - kubectl logs comments-depl-79cbbdc56b-gqh6z
+
+### checking what is running on a port (windows)
+
+- netstat -anb
