@@ -11,8 +11,8 @@ kubectl get pods
 
 ### restart deployments
 
-kubectl get deployments
-kubectl rollout restart deployment event-bus-depl
+- kubectl get deployments
+- kubectl rollout restart deployment event-bus-depl
 
 ### logs
 
